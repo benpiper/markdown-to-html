@@ -17,7 +17,7 @@ Assuming HTML files are in the `html` directory and markdown files are in the pr
 ```bash
 $ cd html
 
-$ ebook-convert index.html ebook.azw3 --title "$(head -1 ../index.md)"
+$ ebook-convert index.html ebook.azw3"
 ```
 
 This will create an ebook file named `ebook.azw3` and use the first line of the source `index.md` markdown file as the book's title.
