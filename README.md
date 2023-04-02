@@ -21,3 +21,9 @@ $ ebook-convert index.html ebook.azw3 --title "$(head -1 ../index.md | cut -c 3-
 ```
 
 This will create an ebook file named `ebook.azw3` and use the first line of the source `index.md` markdown file as the book's title.
+
+# An alternative approach to converting markdown to HTML
+
+1. Install the [Markdown All In One](https://github.com/yzhang-gh/vscode-markdown) VS Code/Codium extension
+2. Open the Command Palette (Ctrl-Shift-P)
+3. Select `Markdown All In One: Print documents to HTML (select a source folder)`
