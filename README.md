@@ -1,6 +1,6 @@
 # markdown-to-html
 
-Bulk converts markdown (`.md`) files to HTML (`.html`) files and converts embedded markdown links to HTML links.
+Bulk converts markdown (`.md`) files to HTML (`.html`) files and converts embedded markdown links to HTML links. [Pandoc](https://pandoc.org) is required and must be in the path.
 
 ## Usage
 
